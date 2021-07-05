@@ -80,6 +80,9 @@ section{
     background-image: linear-gradient(to left, rgb(74, 71, 255), rgb(255, 8, 0));
     box-shadow: 0px 0px 25px 2px rgba(12, 8, 255, 0.774);
 }
+.recipies{
+    margin-bottom: 50px;
+}
 .recipies h1{
     letter-spacing: 5px;
     color: gray;
@@ -95,22 +98,33 @@ section{
 }
 .items{
     display: flex;
+    margin-bottom: 100px;
 }
 .itm-left{
     margin-left:5%;
     margin-right:2%;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, yellow, rgb(0, 255, 42));
+    border-image-slice: 1;
+
 }
 .itm-center{
     margin-left:2%;
     margin-right:2%;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, rgb(255, 0, 0), #fffb09);
+    border-image-slice: 1;
 }
 .itm-right{
     margin-left:2%;
     margin-right:5%;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, yellow, rgb(47, 0, 255));
+    border-image-slice: 1;
 }
 .itm{
     margin-top:5%;
-    box-shadow: 0px 2px 20px -4px rgb(66, 64, 64);
+    box-shadow: 0px -2px 20px -4px rgb(66, 64, 64);
 }
 .itm  p{
     font-size:20px;
@@ -119,4 +133,51 @@ section{
 }
 .itm img{
     width:100%
+}
+.stat{
+    display: flex;
+    width:90%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px -5px rgb(66, 64, 64);
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.staton{
+    margin: 50px auto;
+}
+.static{
+    text-align: center;
+    width:30%;
+}
+.static h1{
+    margin:5px;
+    padding:2px;
+    font-family:cursive;
+}
+.static p{
+    margin-top: -5px;
+    font-size:20px;
+}
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: rgba(255, 255, 255, 0.445);
+    background-color:black;
+    
+}
+footer h3{
+   word-spacing: 10px;
+}
+footer span{
+    color:sandybrown;
+}
+footer h3 b{
+    color:orange;
+    letter-spacing: 2px;
+}
+footer h3 a{
+    color: tomato;
+    letter-spacing:5px;
+    font-family:Georgia, 'Times New Roman', Times, serif'
 }
